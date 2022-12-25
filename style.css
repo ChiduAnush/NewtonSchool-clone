@@ -466,7 +466,6 @@ input[type=text], input[type=email], input[type=tel]{
 }
 
 /* -----  */
-
 @-webkit-keyframes scroll {  
     0% {  
      transform: translateX(0);  
@@ -495,7 +494,6 @@ input[type=text], input[type=email], input[type=tel]{
     flex-direction: row;
     width: calc(165px * 14)
    }
-
    /* ------- */
 
 .family {
