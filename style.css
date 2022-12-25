@@ -336,3 +336,72 @@ input[type=text], input[type=email], input[type=tel]{
     font-size: 32px;
     opacity: 70%;
 }
+
+.evencolumns2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.box > .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    background-color: #0052cc;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 264px;
+    font-family: 'Inter', sans-serif;
+    height: 200px;
+}
+
+.box > .top > h5{
+    font-size: 13px;
+    opacity: 90%;
+}
+
+.box > .top > h4 {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.box > .top > .apply > button {
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 95%;
+}
+
+.box > .bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: black;
+    color: #a7b5c4;
+    font-family: 'Inter',sans-serif;
+    width: 264px;
+    height: 259px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.box > .bottom > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 95%;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
