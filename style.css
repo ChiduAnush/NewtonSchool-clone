@@ -359,7 +359,7 @@ input[type=text], input[type=email], input[type=tel]{
     border-top-right-radius: 6px;
     width: 264px;
     font-family: 'Inter', sans-serif;
-    height: 200px;
+    height: 190px;
 }
 
 .box > .top > h5{
@@ -399,9 +399,34 @@ input[type=text], input[type=email], input[type=tel]{
 .box > .bottom > ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    opacity: 95%;
+    gap: 9px;
+    opacity: 90%;
     margin-top: 10px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+}
+
+.powerhouse {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    padding-bottom: 60px
+}
+
+.powerhouse > h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.powerhouse > h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.7em;
+    font-weight: 700;
 }
